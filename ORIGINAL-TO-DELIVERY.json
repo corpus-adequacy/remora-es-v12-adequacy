@@ -1,0 +1,44 @@
+[
+  {
+    "path": "results/additional-row1-verdict.json",
+    "original_sha256": "01fd6498e74391e5a82e0c713ec37ba91f10cbc20df0500ca825d0a585511f6d",
+    "delivery_sha256": "cd75d781fbfcc415c0113185cb6ad905de277cc7ff67379a7a8c037994fe19e5",
+    "changed_field": "manifest",
+    "replacement": "manifests/ca_additional-row1-verdict.manifest.json"
+  },
+  {
+    "path": "results/additional-row2-guidance.json",
+    "original_sha256": "1b1fa91b161cb139963c992da3386e8e033bb593d71e6f0b40b3b76861816445",
+    "delivery_sha256": "9f4ce22be45568bfcbc87d9ed00d4c3a1b8d56502a6bbdfe573a2bbbfa65a64b",
+    "changed_field": "manifest",
+    "replacement": "manifests/ca_additional-row2-guidance.manifest.json"
+  },
+  {
+    "path": "results/additional-row3-runner.json",
+    "original_sha256": "2f85d4db0b37208c0b139152096b2fa53472b2bd7962f04dc7a2f5347af946df",
+    "delivery_sha256": "b387d85ef2333e028a6b7f4d97b7236e7adcafb79acbb147a1ebf127a8b53675",
+    "changed_field": "manifest",
+    "replacement": "manifests/ca_additional-row3-runner.manifest.json"
+  },
+  {
+    "path": "results/known-row1-verdict.json",
+    "original_sha256": "dec93886f83d8615977cdbc858f29808e57e4e773e19bdab111f96a6fba50e57",
+    "delivery_sha256": "be9579645ccd3f78304f10096e5b4618d224e3d6240ad1d8cdbc27d02c2140a6",
+    "changed_field": "manifest",
+    "replacement": "manifests/ca_known-row1-verdict.manifest.json"
+  },
+  {
+    "path": "results/known-row2-guidance.json",
+    "original_sha256": "2c6c0ac1d416e2c3d5db5a9e9e783f9ca44b5c8fef3bdc2cc5a22ff7dd343b42",
+    "delivery_sha256": "4d39c6ae9eaf5fdbd893cb28dcb4a44a17e9f61084981e852b4b336702812ca2",
+    "changed_field": "manifest",
+    "replacement": "manifests/ca_known-row2-guidance.manifest.json"
+  },
+  {
+    "path": "results/known-row3-runner.json",
+    "original_sha256": "17e266a28386b0e25482670377487a3b2db622116cdd1c543636f4a22e35d990",
+    "delivery_sha256": "dcac130ef62013764370eb8113c9523630448ca02092d6de127b2c0d24ffbc3e",
+    "changed_field": "manifest",
+    "replacement": "manifests/ca_known-row3-runner.manifest.json"
+  }
+]

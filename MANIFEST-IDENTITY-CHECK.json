@@ -1,0 +1,26 @@
+{
+  "ca_additional-row1-verdict.manifest.json": {
+    "sha256": "b101c8fabaf765bca93ca0403e63da0914c213a44a6df3b58a43cf0cf05b5c0a",
+    "byte_identical_to_v12_input": true
+  },
+  "ca_additional-row2-guidance.manifest.json": {
+    "sha256": "6892b201d66ffb993c29af8df91628a5192326a6b6ae69e6bdcf1aa7dc83d288",
+    "byte_identical_to_v12_input": true
+  },
+  "ca_additional-row3-runner.manifest.json": {
+    "sha256": "0ececd521abf3be0c8e5db7bd4c3493a1b83e6b691060e01431fa67c8f0cf959",
+    "byte_identical_to_v12_input": true
+  },
+  "ca_known-row1-verdict.manifest.json": {
+    "sha256": "887744c0a5601c96be92fab19e39a91f41c299725f7c57f85f02993c56361000",
+    "byte_identical_to_v12_input": true
+  },
+  "ca_known-row2-guidance.manifest.json": {
+    "sha256": "03ab33600b02f90a0583b320a713af98e533cbf2acb5ec8af53ad04a188d470d",
+    "byte_identical_to_v12_input": true
+  },
+  "ca_known-row3-runner.manifest.json": {
+    "sha256": "58f86889bd5d10f25224dda80fa37e0103ba5cb756073c5bd262c95659bd26f1",
+    "byte_identical_to_v12_input": true
+  }
+}

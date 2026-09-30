@@ -1,0 +1,13 @@
+{
+  "frozen_v1_v11_trees_equal_to_8772d85": true,
+  "first_50_cases_equal_as_JSON": true,
+  "added_cases": [
+    "E18",
+    "E19",
+    "E20"
+  ],
+  "guidance_ladders_byte_equal": true,
+  "runner_diff": "--- \n+++ \n@@ -1,8 +1,8 @@\n # Author: Stian Skogbrott\n # SPDX-License-Identifier: BUSL-1.1\n-\"\"\"Run the evidence-sufficiency-v1.1 corpus against the frozen v1 checker.\n-\n-v1.1 changes the corpus and the runner only. The checker is imported from\n+\"\"\"Run the evidence-sufficiency-v1.2 corpus against the frozen v1 checker.\n+\n+v1.2 adds three cases to the v1.1 corpus; the runner checks are those of v1.1. The checker is imported from\n `../evidence-sufficiency-v1/checker.py`; its sha256 is recorded, never enforced\n as a failure, so a seeded-fault measurement of this runner stays meaningful.\n \"\"\"\n@@ -22,7 +22,7 @@\n V1 = HERE.parent / \"evidence-sufficiency-v1\"\n CHECKER_PATH = V1 / \"checker.py\"\n FROZEN_CHECKER_SHA256 = \"c4ca50aee2b2918b11c6fbde1f8615ca6c6bf1e5b6fa2ac1775f49c5e8c20be0\"\n-SUITE = \"evidence-sufficiency-v1.1\"\n+SUITE = \"evidence-sufficiency-v1.2\"\n \n \n def _load_checker():\n@@ -317,6 +317,10 @@\n                 \"Cases G1-G5 were written after an external seeded-fault run named the gaps; \"\n                 \"their kills of those faults are not independent evidence.\"\n             ),\n+            (\n+                \"Cases H1 were written after an external run with withheld faults named the gap; \"\n+                \"their kills of those faults are not independent evidence.\"\n+            ),\n         ],\n     }\n \n",
+  "tool_commit": "5fa2ff587497b00ac684a767335b9068f7e520a6",
+  "tool_clean": true
+}
